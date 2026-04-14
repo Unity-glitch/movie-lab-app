@@ -1,9 +1,9 @@
-import { Text, View } from "react-native";
-
+import { Image, View } from "react-native";
+import movieLabIcon from "../../assets/images/movieLabIcon.png";
 export default function Index() {
   return (
-    <View className="flex-1 justify-center items-center">
-      <Text className="text-5xl text-accent text-center">Movie Lab</Text>
+    <View className="flex-1 bg-primary">
+      <Image source={movieLabIcon} className="w-20 h-20" resizeMode="contain" />
     </View>
   );
 }

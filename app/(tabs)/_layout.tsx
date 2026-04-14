@@ -7,7 +7,7 @@ export default function Layout() {
       screenOptions={{
         tabBarShowLabel: false,
         tabBarStyle: {
-          backgroundColor: "#030014",
+          backgroundColor: "#0f0D23",
           borderTopWidth: 0,
         },
         tabBarActiveTintColor: "#AB8BFF",
